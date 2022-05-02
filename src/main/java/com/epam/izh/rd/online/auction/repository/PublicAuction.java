@@ -1,8 +1,8 @@
-package com.epam.izh.rd.online.autcion.repository;
+package com.epam.izh.rd.online.auction.repository;
 
-import com.epam.izh.rd.online.autcion.entity.Bid;
-import com.epam.izh.rd.online.autcion.entity.Item;
-import com.epam.izh.rd.online.autcion.entity.User;
+import com.epam.izh.rd.online.auction.entity.Bid;
+import com.epam.izh.rd.online.auction.entity.Item;
+import com.epam.izh.rd.online.auction.entity.User;
 
 import java.util.Collections;
 import java.util.List;

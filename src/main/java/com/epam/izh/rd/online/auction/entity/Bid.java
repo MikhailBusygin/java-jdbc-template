@@ -1,4 +1,4 @@
-package com.epam.izh.rd.online.autcion.entity;
+package com.epam.izh.rd.online.auction.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
