@@ -1,4 +1,4 @@
-package com.epam.izh.rd.online.autcion.repository;
+package com.epam.izh.rd.online.auction.repository;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 @SpringBootTest
-@ComponentScan(basePackages = "com.epam.izh.rd.online.autcion")
+@ComponentScan(basePackages = "com.epam.izh.rd.online.auction")
 public class AppContextTest {
 
     @Autowired
@@ -29,5 +29,4 @@ public class AppContextTest {
     public void dataSourceTest() {
         assertDoesNotThrow(() -> dataSource.getConnection().createStatement().execute("SELECT 1 FROM users"), "При доступе к БД произошла ошибка");
     }
-
 }
